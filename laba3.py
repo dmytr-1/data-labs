@@ -174,6 +174,8 @@ class VHI3(server.App):
         }
     ]
 
+    #changes
+
     def table_output(self, params):
         week_range = params['week'].split('-')
         week_range_1 = int(week_range[0])
